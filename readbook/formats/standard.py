@@ -3,7 +3,7 @@ from abc import ABC
 
 class BaseReader(ABC):
     def __init__(self, file_name):
-        self.file_name = file_name
+        self._file_name = file_name
 
     def load_file(self):
         pass
@@ -18,9 +18,6 @@ class BaseWriter(ABC):
 
 
 class BaseBook(ABC):
-    def __init__(self):
-        pass
-
     def get_plain_text(self):
         pass
 
