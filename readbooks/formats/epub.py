@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import zipfile
 
-from readbook.formats.standard import BaseReader, BaseBook
+from readbooks.formats.standard import BaseReader, BaseBook
 
 
 class EPUBReader(BaseReader):

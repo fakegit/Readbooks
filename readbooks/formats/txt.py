@@ -1,4 +1,4 @@
-from readbook.formats.standard import BaseReader, BaseBook
+from readbooks.formats.standard import BaseReader, BaseBook
 
 
 class TxtReader(BaseReader):
